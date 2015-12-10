@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="MySQL - QuoteDb@localhost" uuid="ba081644-150e-4752-bb27-97a3b50981f3">
+    <data-source name="MySQL - quote@localhost" uuid="153d8664-775c-4a01-bb1a-4a2def8d2f9d">
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <schema-pattern>QuoteDb.*</schema-pattern>
-      <default-schemas>QuoteDb.*</default-schemas>
+      <schema-pattern>quote.*</schema-pattern>
+      <default-schemas>quote.*</default-schemas>
     </data-source>
   </component>
 </project>

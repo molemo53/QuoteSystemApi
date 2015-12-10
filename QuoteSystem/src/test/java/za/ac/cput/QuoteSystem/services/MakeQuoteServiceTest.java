@@ -31,7 +31,7 @@ public class MakeQuoteServiceTest extends AbstractTestNGSpringContextTests {
     {
         List<MakeQuote> makeQuotes= new ArrayList<MakeQuote>();
 
-        MakeQuote makeQuote = MakeQuoteFactory.createQuote("Kevin", "Polo", 1000, "Brakes");
+        MakeQuote makeQuote = MakeQuoteFactory.createQuote("Bontle", "Fiesta", 1000, "Oil");
 
         makeQuotes.add(makeQuote);
 
@@ -66,4 +66,15 @@ public class MakeQuoteServiceTest extends AbstractTestNGSpringContextTests {
         Assert.assertEquals("Oil", updateQuote.getJobName());
     }
 
+/*
+    @Test(dependsOnMethods = "update")
+    public void delete() throws Exception {
+        repository.delete(id);
+
+        MakeQuote makeQuote = repository.findOne(id);
+
+
+        Assert.assertNull(makeQuote);
+    }
+    */
 }
